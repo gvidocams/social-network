@@ -1,4 +1,4 @@
-namespace SocialNetwork;
+namespace Presentation;
 
 public class WeatherForecast
 {
