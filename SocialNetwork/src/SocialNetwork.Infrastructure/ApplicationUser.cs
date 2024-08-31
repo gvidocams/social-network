@@ -1,9 +1,9 @@
-namespace Presentation;
+using Microsoft.AspNetCore.Identity;
 
-public class UserRegistrationRequest
+namespace SocialNetwork.Infrastructure;
+
+public class ApplicationUser : IdentityUser
 {
-    public string Email { get; set; }
-    public string Password { get; set; }
     public string Name { get; set; }
     public string? MiddleName { get; set; }
     public string Surname { get; set; }
